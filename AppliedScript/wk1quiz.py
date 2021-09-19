@@ -2,6 +2,7 @@
 
 # Quiz
 
+######## Remember store a phone number as a string - due to integer removing 0 at start of some numbers! This got yopu in the quiz.
 
 print("Hello World")
 
@@ -19,6 +20,8 @@ print(firstname + lastname)
 message = "Hello World"
 print(message[6])
 
+######## Remember the string methods return another string based on the origional string!
+######## These methods do not change the origional string. You got caught with this in a quiz question!
 username = "JoeB"
 print(username.lower())
 print(username)
@@ -53,4 +56,6 @@ print(T)
 
 time = 23.123456
 print(f"The time is {time:.3f} seconds")
-print(f"The time is {time:.6} seconds")
+print(f"The time is {time:.6} seconds") # me experimenting!
+
+
